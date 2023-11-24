@@ -6,7 +6,7 @@ namespace AsyncProg
     {
 
         static int taskcounter = 0;
-        static async Task Main()  
+        static void Main()  
         {
             string? com;
             bool parseres;

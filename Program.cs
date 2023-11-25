@@ -12,7 +12,8 @@ namespace AsyncProg
         struct taskPars {internal int taskNum; internal DateTime taskStart; internal int taskTerm; };
 
         //private static void Main()
-        static async Task Main()  
+        static void Main()
+        //Было static async Task Main()  
         //static - обязательно для Main
         {
             string? com;
